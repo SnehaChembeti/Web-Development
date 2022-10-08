@@ -1,0 +1,59 @@
+/*************** TAG SELECTORS *********************/
+
+body{
+  background-color: pink;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+/*************** CLASS SELECTORS *********************/
+
+/*
+For Classes we use . while styling
+We can have multiple classes for the same element
+We can use the class for other element
+Classes (Courses) can be taken by many students and the student can belong to other courses as well
+*/
+
+/*this is the 1st class for Coffee for normal person image*/
+.your{
+  background-color: #66BFBF;
+}
+
+/*this is the 2nd class for Coffee for normal person image*/
+.coffee{
+  border-radius: 50%;
+}
+
+/*this is the class for Coffee for Meh image*/
+.mine{
+  background-color: grey;
+  border-radius: 100%
+}
+
+.mine:hover{
+  background-color: black;
+}
+
+/*************** iD SELECTORS *********************/
+
+
+/*
+For ID's we use #
+We can't have multiple id for an element
+We can't use the same id again for other element
+Id (Identity) Can have only one for a person and it can given to other person
+ */
+
+#heading{
+  color: black;
+  font-size: 100px;
+}
+
+#parag{
+  color: brown;
+}
+
+/* class selectors and id selectors are prioritized over tag selectors*/
